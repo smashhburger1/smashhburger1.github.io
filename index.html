@@ -41,8 +41,9 @@
     }
     @media only screen and (max-width: 480px) {
     .headerpic {
-        width: 120px !important;  /* Adjust width for very small screens */
-        height: 60px !important; /* Maintain aspect ratio */
+        width: 250px !important;  /* Adjust width for very small screens */
+        height: 80px !important;
+        border-radius:18px !important; /* Maintain aspect ratio */
     }
     .food-menu-items {
         background-color:rgb(197, 52, 52)  !important;
@@ -51,15 +52,34 @@
         color:white !important;
     }
     }
+.fooder-menu-wrapper{
+    background-color: black;
+}
+.nav-link {
+    background: red;
+    
+}
+    
+.about-food-wrapper1 .nav .nav-item .nav-link {
+  color: white !important;
+  border: 1px solid red !important;  
+}
 
     .food-menu-items:hover {
-        background-color:rgb(197, 52, 52)  !important;
+        background-color:red !important;
     }
     .fooder-menu-wrapper .food-menu-items.active{
 
-        background-color: rgb(197, 52, 52);
+        background-color: red;
 
     }
+ 
+   .price {
+    color: whitesmoke!important;
+   } 
+   h4 a {
+    color: white !important;
+   }
 </style>
 
 <body>
@@ -136,7 +156,7 @@
                     <div class="header-main">
                         <div class="logo">
                             <a href="index.html" class="header-logo">
-                                <img src="assets/img/smashh.jpeg"  class="headerpic" alt="logo-img">
+                                <img src="assets/img/smash1.jpeg"  class="headerpic" alt="logo-img">
                             </a>
                         </div>
                         <div class="header-left">
@@ -530,7 +550,7 @@
 
                                 <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay=".5s">
                                     <div class="food-menu-items d-flex align-items-center justify-content-between">
-                                        <div class="food-menu-content">
+                                        <div class="food-menu-content" >
                                             <h4>
                                                 <a href="index.html">BLUE BERRY SHAKE.</a>
                                             </h4>
@@ -1595,7 +1615,7 @@
         }
     </style>
 
-    <div class="footer-bottom">
+    <div class="footer-bottom" style="background-color: black;">
         <div class="container">
             <div class="footer-bottom-wrapper d-flex align-items-center justify-content-between">
                 <p class="wow fadeInLeft" data-wow-delay=".3s">
